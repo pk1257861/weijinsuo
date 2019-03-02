@@ -1,0 +1,108 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  vertical-align: middle;
+  border: 0;
+}
+input {
+  outline: 0;
+  border: 0;
+}
+a {
+  color: #666;
+}
+ul,
+li {
+  list-style: none;
+}
+img {
+  display: block;
+}
+body {
+  background-color: #f7f7f7;
+}
+header {
+  display: flex;
+  font-size: 0.14rem;
+  height: 0.46rem;
+  line-height: 0.46rem;
+  text-align: center;
+}
+header .position {
+  flex: 1;
+  background-color: pink;
+}
+header .lvmawang {
+  flex: 10;
+  background-color: blue;
+  font-size: 0.16rem;
+}
+header .userInfo {
+  flex: 1;
+}
+header .userInfo img {
+  width: 70%;
+}
+#slide {
+  overflow: hidden;
+}
+#slide img {
+  width: 100%;
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+nav .daohang {
+  margin: 0.09rem 0.03rem 0 0.03rem ;
+  width: 2.06rem;
+  height: 1.1rem;
+}
+nav .daohang img {
+  width: 2.06rem;
+}
+main {
+  margin-top: 0.08rem;
+}
+main .kuaijie {
+  width: 100%;
+}
+main .kuaijie ul {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #dddddd;
+}
+main .kuaijie ul li {
+  border-top: 1px solid #dddddd;
+  border-right: 1px solid #dddddd;
+  height: 1.12rem;
+  width: 1.58rem;
+}
+main .kuaijie ul li img {
+  width: 100%;
+}
+main .temai {
+  display: flex;
+}
+main .temai .left {
+  width: 3.2rem;
+  height: 2.23rem;
+}
+main .temai .left img {
+  width: 100%;
+  height: 100%;
+}
+main .temai .right {
+  width: 3.2rem;
+  height: 2.23rem;
+}
+main .temai .right .top img {
+  display: block;
+  width: 100%;
+}
+main .temai .right .bottom img {
+  display: block;
+  width: 100%;
+}

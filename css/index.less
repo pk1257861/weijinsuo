@@ -1,0 +1,118 @@
+@import "./base.less";
+@bdColor:#dddddd;
+img {
+    display: block;
+    // float: left;
+}
+
+// div{
+//     box-sizing: border-box;
+// }
+
+body {
+    background-color: #f7f7f7;
+}
+header {
+    display: flex;
+    font-size: 0.14rem;
+    height: 0.46rem;
+    line-height: 0.46rem;
+    text-align: center;
+    .position {
+        flex: 1;
+        background-color: pink;
+    }
+    .lvmawang {
+        flex: 10;
+        background-color: blue;
+        font-size: 0.16rem;
+    }
+    .userInfo {
+        flex: 1;
+        img {
+            width: 70%;
+        }
+    }
+}
+// 轮播图开始
+#slide {
+    overflow: hidden;
+    img {
+        width: 100%;
+    }
+}
+//轮播结束
+// nav开始
+nav {
+    display: flex;
+    flex-wrap:wrap;
+// background-color: red;
+// height: 50rem;
+    .daohang {
+        margin: 0.09rem 0.03rem 0 0.03rem ;
+        width: 2.06rem;
+        height: 1.1rem;
+        img {
+            // margin-top: -.45rem;
+            width: 2.06rem;
+            // height: 100%;
+            // vertical-align: middle;
+        }
+    }
+}
+// nav结束
+main{
+    margin-top: 0.08rem;
+   
+    .kuaijie {
+        width: 100%;
+        ul{
+            display: flex;
+            flex-wrap:wrap;
+            border-bottom: 1px solid @bdColor;
+        //     border-top: 1px solid #000;
+        //    border-bottom: 1px solid #000;
+            li {
+                border-top: 1px solid @bdColor;
+                border-right: 1px solid @bdColor;
+                height: 1.12rem;
+                width: 1.58rem;
+
+                img {
+                    // margin-top: -0.45em;
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .temai {
+        display: flex;
+        .left {
+            // width: 50%;
+            width: 3.2rem;
+            height: 2.23rem;
+            img {
+                width: 100%;
+                height: 100%;
+            }
+        }
+        .right{
+            // width: 50%;
+            width: 3.2rem;
+            height: 2.23rem;
+            .top {
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+           
+            .bottom {
+                img {
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
